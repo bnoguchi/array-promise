@@ -3,8 +3,12 @@ array-promise
 
 Act on asynchronously loaded arrays via forEach, map, etc without the usual, messy callback interface
 
+## Installation
+    npm install array-promise
+
 ## Tutorial
-    var array = new ArrayPromise();
+    var ArrayPromise = require('array-promise')
+      , array = new ArrayPromise();
 
     // Program what you want to do with the data when you finally receive it
     array.filter( function (member) {
