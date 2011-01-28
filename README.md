@@ -1,7 +1,9 @@
-## array-promise - Act on asynchronously loaded arrays via forEach, map, etc without the usual, messy callback interface
-====================================================================================
+array-promise
+============
 
-### Tutorial
+Act on asynchronously loaded arrays via forEach, map, etc without the usual, messy callback interface
+
+## Tutorial
     var array = new ArrayPromise();
 
     // Program what you want to do with the data when you finally receive it
@@ -41,11 +43,11 @@ The logic on the data also works if the data has already been loaded:
     // => 0: 20
     // => 1: 40
 
-### Tests
+## Tests
 To run tests:
     make test
 
-# Contributors
+### Contributors
 - [Brian Noguchi](https://github.com/bnoguchi)
 
 ### License
