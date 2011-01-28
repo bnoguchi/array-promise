@@ -1,5 +1,5 @@
 ## array-promise - Act on asynchronously loaded arrays via forEach, map, etc without the usual, messy callback interface
----
+====================================================================================
 
 ### Tutorial
     var array = new ArrayPromise();
