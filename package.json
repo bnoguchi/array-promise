@@ -1,0 +1,23 @@
+{
+  "name": "array-promise",
+  "description": "Act on asynchronously loaded arrays via forEach, map, etc without the usual, messy callback interface.",
+  "version": "0.0.1",
+  "keywords": [ "node", "promise", "array" ],
+  "homepage": "https://github.com/bnoguchi/array-promise/",
+  "repository": "https://github.com/bnoguchi/array-promise.git",
+  "author": "Brian Noguchi (https://github.com/bnoguchi/)",
+  "main": "./index",
+  "directories": {
+    "lib": ""
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "expresso": ">= 0.7.0"
+  },
+  "engines": {
+    "node": ">=0.2.5"
+  },
+  "licenses": [ "MIT" ],
+}
